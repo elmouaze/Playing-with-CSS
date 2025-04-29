@@ -1,0 +1,123 @@
+.container{
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    margin-top: -200px;
+    margin-left: -200px;
+    background: linear-gradient(to top right, #313131 35%, #A3DE83 100%);
+    font-family: 'Courier New', 'Courier', sans-serif;
+    color :#fff;
+}
+.center{
+    position: absolute;
+    top: 50.8%;
+    left: 50.5%;
+    transform: translate(-50%,-50%);
+  
+}
+.numbers{
+ position: relative;
+    height: 180px;
+    width: 200px;
+    left :20px;
+}
+.one ,.one_2
+{
+    position: absolute;
+    background:#fff;
+    box-shadow: 0 0 13px 0 rgba(0,0,0,0.2);
+    top:0;
+    border-radius: 4px;
+}
+.one{
+    height: 169px;
+    width: 40px;
+    left:0px;
+}
+.one_2{
+    height: 80px;
+    width: 40px;
+    transform: rotate(50deg);
+    left:-34px;
+    z-index: -1;
+}
+
+
+.three-top{
+  position: absolute;
+  z-index: -1;
+  width: 100px;
+  height: 100px;
+  border: 30px solid #fff;
+  border-radius: 50%;
+  transform: rotate(90deg);
+  box-shadow: 0 0 13px 0 rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+    clip-path: inset(0 0 40% 0); /* Show only the top half */
+    
+}
+
+.three-bottom{
+    position: absolute;
+    top:69px;
+    z-index: -1;
+    width: 100px;
+    height: 100px;
+    border: 30px solid #fff;
+    border-radius: 50%;
+    transform: rotate(90deg);
+    box-shadow: 0 0 13px 0 rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+      clip-path: inset(0 0 40% 0); /* Show only the top half */
+      
+  }
+  .align{
+    left: 59px;
+    clip-path: inset(0 0 22% 0);
+    z-index: -2;
+
+  }
+  .align_seven
+  {
+    left:180px;
+    transform: rotate(20deg);
+    z-index: -4;
+    width: 35px;
+
+
+  }
+  .seven{
+    position: absolute;
+    background:#fff;
+    box-shadow: 0 0 13px 0 rgba(0,0,0,0.2);
+    height: 100px;
+    width: 35px;
+    transform: rotate(90deg);
+    left:150px;
+    top :-32px;
+    z-index: -5;
+    border-radius: 8px;
+
+  }
+  .coding
+  {
+    position: relative;
+    display: block;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 60px;
+    left: -6px;
+  }
+  .school{
+    margin-top: 8px;
+    position: relative;
+    z-index: 20;
+    display: block; 
+    font-size: 50px;
+    line-height: 20px;
+    font-weight: 400;
+    text-align: center;
+
+}

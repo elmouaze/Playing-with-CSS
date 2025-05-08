@@ -1,0 +1,103 @@
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+  box-shadow: 1px 2px 10px 0px rgba(0,0,0,0.3);
+  background: #00A651  ;
+  color: #fff;
+}
+#center
+{
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	top: 50%;
+	left:50%;
+	margin-left: -50px;
+	margin-top: -50px;
+	
+}
+.one{
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	background: white;
+	border-radius: 50%;
+	box-shadow: 10px 10px 15px 0 rgba(0,0,0,0.3);
+
+	animation: one_animation 4s infinite alternate;
+}
+.two{
+	position: absolute;
+	width: 160px;
+	height: 160px;
+	background: white;
+	border-radius: 50%;
+	box-shadow: 10px 10px 15px 0 rgba(0,0,0,0.3);
+	animation: two_animation 4s infinite alternate;
+
+}
+.three{
+	position: absolute;
+	width: 120px;
+	height: 120px;
+
+	background: white;
+	border-radius: 50%;
+	box-shadow: 10px 10px 15px 0 rgba(0,0,0,0.3);
+	animation: three_animation 4s infinite alternate;
+
+}
+#logo{
+	z-index: 1;
+	animation: logo_animation 4s infinite alternate;
+
+}
+@keyframes one_animation {
+	0%,40%{
+		box-shadow: 2px 2px 3px 2px rgba(0,0,0,0.2);
+
+		transform: scale(0);
+	}
+	100%{		
+		transform: scale(1);
+	}
+}
+
+@keyframes two_animation {
+	0%,50%{
+		box-shadow: 2px 2px 3px 2px rgba(0,0,0,0.2);
+
+		transform: scale(0);
+	}
+	100%{		
+		transform: scale(1);
+	}
+}
+
+@keyframes three_animation {
+	0%,60%{
+		box-shadow: 2px 2px 3px 2px rgba(0,0,0,0.2);
+
+		transform: scale(0);
+	}
+	100%{		
+		transform: scale(1);
+	}
+}
+@keyframes logo_animation {
+	0%,70%{
+
+		transform: scale(0);
+	}
+	100%{		
+		transform: scale(1);
+	}
+}
